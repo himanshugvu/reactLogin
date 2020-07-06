@@ -23,6 +23,7 @@ function App() {
         <Header title={title} />
         <MetaTags>
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+          <meta name="HandheldFriendly" content="true" />
         </MetaTags>
         <div className="container d-flex align-items-center flex-column">
           <Switch>

@@ -96,7 +96,7 @@ function LoginForm(props) {
         </span>
       </div>
 
-      <div className="mt-4">
+      <div className="copyrightLogin">
         <span>Your Account for everything Autodesk </span>
         <br />
         <span className="loginText" onClick={() => redirectToLogin()}>

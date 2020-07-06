@@ -6,6 +6,10 @@
     margin-top: 10vh;
 }
 
+.copyrightLogin {
+    bottom: 0;
+    position: absolute;
+}
 #left {
     float: left;
     width: 45%;

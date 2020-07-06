@@ -168,7 +168,7 @@ function RegistrationForm(props) {
           Sign in
         </span>
       </div>
-      <div className="mt-4">
+      <div className="copyright">
         <span>Your Account for everything Autodesk </span>
         <br />
         <span className="loginText" onClick={() => redirectToLogin()}>
