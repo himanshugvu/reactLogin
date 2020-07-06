@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Iframe from 'react-iframe';
+import "./Home.css";
 function Home(props) {
     const [isBackButtonClicked, setBackbuttonPress] = useState(false)
 
@@ -31,9 +33,21 @@ function Home(props) {
             }
         }
     }
+    const demos = {
+        autodesk:
+            '<iframe width="100%" height="1000px" scrolling="yes" frameborder="no"  src="https://en.wikipedia.org/wiki/Autodesk"></iframe>',
+    };
+    function Iframe(props) {
+        return (
+            <div
+                dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }}
+            />
+        );
+    }
     return (
-        <div className="mt-2">
-            Home page content
+        <div className="full-height">
+            <Iframe iframe={demos["autodesk"]} allow="autoplay" />,
+
         </div>
     )
 }
