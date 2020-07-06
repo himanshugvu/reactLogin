@@ -1,0 +1,16 @@
+.login-card {
+    min-height: 60vh;
+}
+
+.registerMessage {
+    margin-top: 10vh;
+}
+
+#left {
+    float: left;
+    width: 45%;
+  }
+#right {
+    float: right;
+    width: 48%;
+  }
