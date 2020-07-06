@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import LoginForm from './components/LoginForm/LoginForm';
@@ -16,6 +16,7 @@ function App() {
   const [title, updateTitle] = useState(null);
   const [errorMessage, updateErrorMessage] = useState(null);
   const name = window.$name;
+
   return (
     <Router>
       <div className="App">
